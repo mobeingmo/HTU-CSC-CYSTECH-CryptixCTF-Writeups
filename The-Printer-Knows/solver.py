@@ -36,3 +36,4 @@ print("Recovered:", flag.decode("ascii"))
 
 flag = bytes(glyph_map[code] for code in payload)
 print("Recovered:", flag.decode("ascii"))
+# Flag: `Cryptix{pr1nt3r_g1yph5_l13_c0ngr4t5!}
